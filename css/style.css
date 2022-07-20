@@ -98,7 +98,7 @@ section.menu ul li form input {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 20%;
+    max-width: 15em;
     border: 1px solid grey;
     border-radius: 50rem 50rem 15rem 15rem;
 }
@@ -174,17 +174,10 @@ section.menu ul li form input {
 
 @media screen and (max-width: 1280px) {
     .menu li {
-        max-width: 100%;
+        max-width: 15em;
     }
 
     .menu ul {
         flex-direction: column;
-    }
-
-    .shadow-gradient::after {
-        left: 33%;
-        top: 10%;
-        width: 11em;
-        height: 11em;
     }
 }
