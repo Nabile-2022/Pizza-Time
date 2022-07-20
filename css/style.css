@@ -67,7 +67,8 @@ input {
     transition: all 0.2s;
 }
 
-button:hover, input:hover {
+button:hover,
+input:hover {
     box-shadow: 0em 0em 0.4em var(--red);
 }
 
@@ -155,6 +156,10 @@ section.menu ul li form input {
 .logo {
     display: flex;
     align-items: center;
+}
+
+.logo::before {
+    content: url("../images/logo.svg");
 }
 
 .selected {
