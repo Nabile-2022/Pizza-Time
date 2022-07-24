@@ -186,5 +186,6 @@ section.menu ul li form input {
 
     .menu ul {
         flex-direction: column;
+        align-items: center;
     }
 }
